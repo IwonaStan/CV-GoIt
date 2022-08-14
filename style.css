@@ -1,0 +1,49 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #e8e5dc;
+}
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+main {
+    padding-left: 50px;
+    padding-right: 217px;
+}
+h2 {
+    font-size: 16px;
+}
+h3 {
+    font-size: 14px;
+    color: #595959;
+}
+li {
+    font-size: 14px;
+}
+p {
+    font-size: 12px;
+}
+aside {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    background-color: #7b8fa4;
+    color: #FFFFFF;
+}
+.main_description {
+    padding-top: 20px;
+}
+.project {
+    margin-top: 30px;
+}
+.experience {
+    margin-top: 30px;
+}
+.edu {
+    margin-top: 30px;
+}
