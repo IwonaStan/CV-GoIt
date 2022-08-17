@@ -7,51 +7,128 @@ body {
     flex-direction: row-reverse;
     justify-content: center;
     width: 1200px;
+    height: 1500px;
     margin: 0 auto;
     background-color: #FFFFFF;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 main {
-    padding-left: 50px;
-    padding-right: 150px;
+    padding: 102px 88px 102px 88px;
+}
+h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
 }
 h2 {
-    font-size: 16px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
 }
 h3 {
-    font-size: 14px;
-    color: #595959;
-}
-li {
-    font-size: 14px;
-    text-align: justify;
+    font-weight: 700;
+    font-size: 16px;
 }
 p {
-    font-size: 12px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;    
     text-align: justify;
 }
 .main_description {
-    padding-top: 20px;
+    width: 400px;
+    margin-bottom: 40px;
 }
 .project {
-    margin-top: 30px;
+    width: 485px;
+    margin-bottom: 51px;
+}
+ol {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 0px;
+    list-style-position: inside;
+    text-align: justify;
+}
+ul {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    padding-left: 0px;
+    list-style-position: inside;
+}
+.right-links {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    text-decoration: none;
+}
+.ordered-list {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.orange {
+    color: #FB6D3A;
 }
 .experience {
     margin-top: 30px;
 }
+.dates {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+.glory-new {
+    margin-top: 16px;
+}
+.glory-llc {
+    margin-top: 20px;
+}
 .edu {
-    margin-top: 30px;
+    margin-top: 43px;
+    margin-bottom: 147px;
 }
 aside {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
+    padding-top: 40px;
     background: linear-gradient(#7B8FA4 20%, #48557a 50%);
     color: #FFFFFF;
 }
 img {
     box-shadow: 1px 1px 3px silver; 
  }
-#left_links a {
+ #left_links a {
     color: #FFFF;
-}
+ }
+ .contact {
+    margin-top: 51px;
+    margin-left: 40px;
+ }
+ .tech-skills {
+    margin-top: 47px;
+    margin-left: 40px;
+ }
+ .soft-skills {
+    margin-top: 44px;
+    margin-left: 40px;
+ }
+ .left-information {
+    font-weight: 400;
+    font-size: 14px;
+    color: #FB6D3A;
+    line-height: 24px;
+    padding-left: 0px;
+    list-style-position: inside;
+ }
+ .bold {
+    font-weight: 700;
+    color: #FFFFFF;
+ }
+ .left-list {
+    color: #FFFFFF;
+ }
